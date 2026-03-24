@@ -1,5 +1,5 @@
 {% set name = "oceanumlab" %}
-{% set version = "4.0.3" %}
+{% set version = "4.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/oceanumlab-{{ version }}.tar.gz
-  sha256: 4668823d52d63b00b24da6036559926961ad3615dcc505f20f5f951f316e47a5
+  sha256: b95e4920dd2cbc822455a87e08a727497e7ef3900d42f836a8de00354f2c2747
 
 build:
   noarch: python
